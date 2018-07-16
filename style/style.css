@@ -220,9 +220,7 @@ footer {
    
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 300px) {
-            body {
-                background-color: red;
-            }
+            
             
             .subject {
                 font-size: 20px;
@@ -261,10 +259,8 @@ footer {
     @media only screen and (min-width : 700px) {
             .cards {
                     flex-direction: row;
-                }
-            body {
-                background-color: green;
             }
+              
             article {
                 width: 350px;
             }
@@ -288,9 +284,7 @@ footer {
         .cards {
                     flex-direction: row;
                 }
-        body {
-                background-color: yellow;
-        }
+       
         .infoCard {
             font-size: 10px;
         }
@@ -319,8 +313,5 @@ footer {
             height: 400px;
         }
 
-        body {
-            /*smallest */
-                background-color: blue;
-            }
+       
     }
