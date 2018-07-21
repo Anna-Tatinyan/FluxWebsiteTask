@@ -17,27 +17,18 @@ body {
 }
 
 /* Style the header */
-.head {
-    padding: 7px;
-    display: flex;
-    flex-direction: row;
-   
-}
+
 .logo {
-    margin: 25px 0px 0 5px ;
-    width: 20px;
-    height: 20px;
+    margin: 0px 0px 0 5px ;
+    width: 220px;
+
 
 }
-.name {
-    font-weight: 900;
-    font-size: 25px;
-    font-family: "Times New Roman", Times, serif;
-}
+
 .search-box-wrapper {
     display: inline-flex;
     height: 30px;
-    margin: 25px 0 0 0px;
+    margin: 0px 0 10px 0px;
 }
 
 .search-box-button {    
@@ -176,7 +167,7 @@ article {
   justify-content: center;
 }
 .rights {
-    margin: 30px 0 0 0px;
+    margin: 35px 0 0 0px;
     color: #CDB5CD
 }
 /* Style the footer */
@@ -237,7 +228,7 @@ footer {
                 margin: 17px 0 0 5px;
             }
             .search-box-wrapper {
-                margin: 20px 0 0 0;
+                margin: 20px 0 10px 0;
             }
             .infoCard {
     
@@ -259,8 +250,13 @@ footer {
     @media only screen and (min-width : 700px) {
             .cards {
                     flex-direction: row;
+<<<<<<< HEAD
                 }
            
+=======
+            }
+              
+>>>>>>> f11fb08f30cd8273ea898fb5aef516ffaa297132
             article {
                 width: 350px;
             }
@@ -313,5 +309,9 @@ footer {
             height: 400px;
         }
 
+<<<<<<< HEAD
         
+=======
+       
+>>>>>>> f11fb08f30cd8273ea898fb5aef516ffaa297132
     }
