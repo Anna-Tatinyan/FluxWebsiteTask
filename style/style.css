@@ -219,7 +219,7 @@ footer {
 
             }
             article {
-                width: 300px;
+                width: 350px;
             }
             .name {
                 font-size: 20px;
@@ -243,6 +243,9 @@ footer {
                 width: 500px;
                 height: 250px;
             }
+            body {
+            background-color: green;
+        }
 
     }
 
@@ -250,13 +253,10 @@ footer {
     @media only screen and (min-width : 700px) {
             .cards {
                     flex-direction: row;
-<<<<<<< HEAD
+
                 }
            
-=======
-            }
-              
->>>>>>> f11fb08f30cd8273ea898fb5aef516ffaa297132
+
             article {
                 width: 350px;
             }
@@ -272,6 +272,9 @@ footer {
                 font-size: 8px;
 
             }
+            body {
+            background-color: yellow;
+        }
 
     }
 
@@ -291,10 +294,16 @@ footer {
         article {
             width: 500px;
         }
+        body {
+            background-color: blue;
+        }
     }
 
     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
+        body {
+            background-color: red;
+        }
         .cards {
                     flex-direction: row;
         }
@@ -302,16 +311,12 @@ footer {
             font-size: 10px;
         }
         article {
-            widht: 600px;
+            width: 500px;
         }
         .firework {
             width: 800px;
             height: 400px;
         }
 
-<<<<<<< HEAD
-        
-=======
-       
->>>>>>> f11fb08f30cd8273ea898fb5aef516ffaa297132
+
     }
